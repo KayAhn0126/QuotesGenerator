@@ -1,24 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QuotesGenerator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="명언 생성기" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSS-BY-8q8">
+                                <rect key="frame" x="24" y="68" width="366" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dWF-6H-QUR">
+                                <rect key="frame" x="24" y="113" width="366" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TD6-xa-gVR">
+                                        <rect key="frame" x="20" y="20" width="326" height="119"/>
+                                        <mutableString key="text">동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 동해 물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세 </mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="이름" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74q-zv-kiV">
+                                        <rect key="frame" x="20" y="159" width="326" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="TD6-xa-gVR" firstAttribute="leading" secondItem="dWF-6H-QUR" secondAttribute="leading" constant="20" id="AIh-tU-aZg"/>
+                                    <constraint firstItem="74q-zv-kiV" firstAttribute="leading" secondItem="dWF-6H-QUR" secondAttribute="leading" constant="20" id="MGh-b4-z3o"/>
+                                    <constraint firstItem="74q-zv-kiV" firstAttribute="top" secondItem="TD6-xa-gVR" secondAttribute="bottom" constant="20" id="ZZT-ME-OOR"/>
+                                    <constraint firstAttribute="trailing" secondItem="74q-zv-kiV" secondAttribute="trailing" constant="20" id="b2p-Dt-eIi"/>
+                                    <constraint firstAttribute="trailing" secondItem="TD6-xa-gVR" secondAttribute="trailing" constant="20" id="cby-M5-GS6"/>
+                                    <constraint firstItem="TD6-xa-gVR" firstAttribute="top" secondItem="dWF-6H-QUR" secondAttribute="top" constant="20" id="g3m-LY-DLC"/>
+                                    <constraint firstAttribute="bottom" secondItem="74q-zv-kiV" secondAttribute="bottom" constant="20" id="h7d-pb-8wb"/>
+                                    <constraint firstAttribute="height" constant="200" id="uKy-oN-SJZ"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IgC-v4-D7P">
+                                <rect key="frame" x="179" y="333" width="56" height="30"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="명언 생성"/>
+                                <connections>
+                                    <action selector="tapGenerateQuote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tL6-k2-fiy"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IgC-v4-D7P" firstAttribute="top" secondItem="dWF-6H-QUR" secondAttribute="bottom" constant="20" id="0nu-P3-i2C"/>
+                            <constraint firstItem="CSS-BY-8q8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Ddo-ZY-zp8"/>
+                            <constraint firstItem="dWF-6H-QUR" firstAttribute="top" secondItem="CSS-BY-8q8" secondAttribute="bottom" constant="24" id="FB0-vy-GyS"/>
+                            <constraint firstItem="IgC-v4-D7P" firstAttribute="centerX" secondItem="dWF-6H-QUR" secondAttribute="centerX" id="OUT-qm-cgo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dWF-6H-QUR" secondAttribute="trailing" constant="24" id="bak-KA-wqu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CSS-BY-8q8" secondAttribute="trailing" constant="24" id="gyW-Ao-WZC"/>
+                            <constraint firstItem="CSS-BY-8q8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="lnC-aL-mec"/>
+                            <constraint firstItem="dWF-6H-QUR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="tz8-Kz-fxc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="generatorButton" destination="IgC-v4-D7P" id="1Xs-qq-W7K"/>
+                        <outlet property="nameLabel" destination="74q-zv-kiV" id="av5-au-ujE"/>
+                        <outlet property="quoteLabel" destination="TD6-xa-gVR" id="OYT-nw-Pjr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="188" y="93"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
